@@ -104,15 +104,23 @@ genderLabel.style.marginBottom = "5px";
 formContainer.appendChild(genderLabel);
 
 const genderSelect = document.createElement("select");
+
+
 const maleOption = document.createElement("option");
 maleOption.value = "male";
 maleOption.innerHTML = "Male";
+
+
 const femaleOption = document.createElement("option");
 femaleOption.value = "female";
 femaleOption.innerHTML = "Female";
+
+
 const otherOption = document.createElement("option");
 otherOption.value = "other";
 otherOption.innerHTML = "Other";
+
+
 genderSelect.appendChild(maleOption);
 genderSelect.appendChild(femaleOption);
 genderSelect.appendChild(otherOption);
@@ -131,12 +139,18 @@ const relationshipSelect = document.createElement("select");
 const singleOption = document.createElement("option");
 singleOption.value = "single";
 singleOption.innerHTML = "Single";
+
+
 const inRelationshipOption = document.createElement("option");
 inRelationshipOption.value = "inRelationship";
 inRelationshipOption.innerHTML = "In a Relationship";
+
+
 const marriedOption = document.createElement("option");
 marriedOption.value = "married";
 marriedOption.innerHTML = "Married";
+
+
 relationshipSelect.appendChild(singleOption);
 relationshipSelect.appendChild(inRelationshipOption);
 relationshipSelect.appendChild(marriedOption);
